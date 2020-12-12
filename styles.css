@@ -1,3 +1,10 @@
+*{
+    outline: 1px black solid;
+}
+
 section {
     color: #A1F7B9
+}
+p {
+    padding: 55px;
 }
