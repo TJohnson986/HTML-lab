@@ -1,7 +1,15 @@
 section {
+    background-color: #A1F7EA
+}
+
+header {
     background-color:#A1F7B9
 }
 
 p {
-    padding: 55px;
+    background-color:#A1F7B9
+    padding: 25px;
 }
+ footer {
+     background-color: #9DE0C3;
+ }
