@@ -3,13 +3,21 @@ section {
 }
 
 header {
-    background-color:#A1F7B9
+    background-color: rgb(161, 247, 185, 0.8);
 }
 
 p {
-    background-color:#A1F7B9
     padding: 25px;
 }
+
  footer {
      background-color: #9DE0C3;
+ }
+
+ nav {
+     background-color: rgb(154, 227,237,0.6);
+ }
+
+ body {
+     background-color: rgb(161, 247, 185, 0.8);
  }
