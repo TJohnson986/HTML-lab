@@ -11,3 +11,6 @@ if (response === "yes") {
 } else if (response === "no") {
     alertMessage = "Here's an umbrella ☂️"
 }
+
+alert (alertMessage)
+
