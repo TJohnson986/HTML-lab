@@ -6,15 +6,18 @@ console.log(response);
 
 var alertMessage;
 
-if (response === "yes") {
-    alertMessage = "The PNW is for you!";
-} else if (response === "Yes") {
-    alertMessage = "The PNW is for you!";
-} else if (response === "no") {
-    alertMessage = "Here's an umbrella ☂️"
-} else if (response === "No") {
-    alertMessage = "Here's an umbrella ☂️"
+function responseInput() {
+    if (response === "yes") {
+        alertMessage = "The PNW is for you!";
+    } else if (response === "Yes") {
+        alertMessage = "The PNW is for you!";
+    } else if (response === "no") {
+        alertMessage = "Here's an umbrella ☂️"
+    } else if (response === "No") {
+        alertMessage = "Here's an umbrella ☂️"
+    }
+    alert (alertMessage)
 }
-   
-alert (alertMessage)
+
+responseInput ();
 
