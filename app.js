@@ -2,12 +2,20 @@ console.log("hello, world");
 
 
 var promptQuestion = "Do you like rain?";
-var response = prompt(promptQuestion);
-console.log(response);
+
+function checkUserPassword() {
+     var storedPassword = "What's";    
+
+    do {
+     var passwd = prompt("What's the password?"); 
+    //  console.log(promptUser);
+    }while (passwd !== storedPassword);
+}
 
 var alertMessage;
 
 function responseInput() {
+    var response = prompt(promptQuestion);
     response = response.toLowerCase();
     if (response === "yes") {
         alertMessage = "The PNW is for you!";
@@ -19,4 +27,6 @@ function responseInput() {
     alert (alertMessage)
 }
 
+checkUserPassword();
+// promptUser();
 responseInput();
