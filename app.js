@@ -1,7 +1,5 @@
 console.log("hello, world");
 
-
-
 function checkUserPassword() {
      var storedPassword = "What";    
 
@@ -27,13 +25,7 @@ function responseInput() {
 }
 
 function addAnimalsToDocument(numberOfAnimals) {
-    // var numberOfAnimals = prompt("How many animal pictures can you handle?");
-    // for(var i = 0; i < numberOfAnimals; i++) 
-    //     console.log(i);
-    //     document.write("<section> \
-    //                         <img src=http://placeimg.com/640/480/animals> \
-    //                         </section>");
-    //     addAnimalsToDocument(numberOfAnimals);
+
 }                        
 
 checkUserPassword();
