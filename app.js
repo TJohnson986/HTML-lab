@@ -1,18 +1,13 @@
 console.log("hello, world");
 
-
-var promptQuestion = "Do you like rain?";
-
 function checkUserPassword() {
-     var storedPassword = "What's";    
+     var storedPassword = "What";    
 
     do {
-     var passwd = prompt("What's the password?"); 
+     var passwd = prompt("What is the password?"); 
     //  console.log(promptUser);
     }while (passwd !== storedPassword);
 }
-
-var alertMessage;
 
 function responseInput() {
     var response = prompt(promptQuestion);
@@ -27,6 +22,14 @@ function responseInput() {
     alert (alertMessage)
 }
 
+function addAnimalsToDocument() {
+    document.write(<section>
+        <img src="http://placeimg.com/640/480/animals"></img>
+    </section>)
+}
+
+var promptQuestion = "Do you like rain?";
+var alertMessage;
+
 checkUserPassword();
-// promptUser();
 responseInput();
