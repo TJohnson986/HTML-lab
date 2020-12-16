@@ -23,9 +23,14 @@ function responseInput() {
 }
 
 function addAnimalsToDocument() {
-    document.write(<section>
-        <img src="http://placeimg.com/640/480/animals"></img>
-    </section>)
+    var numberOfAnimals = prompt("How many animal pictures can you handle?");
+    
+    for(var i = 0; i <numberOfAnimals; i++) 
+    console.log(i);
+    addAnimalsToDocument(numberOfAnimals);
+    document.write("<section> \
+                        <img src=http://placeimg.com/640/480/animals> \
+                        </section>");
 }
 
 var promptQuestion = "Do you like rain?";
@@ -33,3 +38,4 @@ var alertMessage;
 
 checkUserPassword();
 responseInput();
+// addAnimalsToDocument();
