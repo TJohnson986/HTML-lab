@@ -1,5 +1,7 @@
 console.log("hello, world");
 
+
+
 function checkUserPassword() {
      var storedPassword = "What";    
 
@@ -10,6 +12,8 @@ function checkUserPassword() {
 }
 
 function responseInput() {
+    var promptQuestion = "Do you like rain?";
+    var alertMessage;
     var response = prompt(promptQuestion);
     response = response.toLowerCase();
     if (response === "yes") {
@@ -22,20 +26,26 @@ function responseInput() {
     alert (alertMessage)
 }
 
-function addAnimalsToDocument() {
-    var numberOfAnimals = prompt("How many animal pictures can you handle?");
-    
-    for(var i = 0; i <numberOfAnimals; i++) 
-    console.log(i);
-    addAnimalsToDocument(numberOfAnimals);
-    document.write("<section> \
-                        <img src=http://placeimg.com/640/480/animals> \
-                        </section>");
-}
-
-var promptQuestion = "Do you like rain?";
-var alertMessage;
+function addAnimalsToDocument(numberOfAnimals) {
+    // var numberOfAnimals = prompt("How many animal pictures can you handle?");
+    // for(var i = 0; i < numberOfAnimals; i++) 
+    //     console.log(i);
+    //     document.write("<section> \
+    //                         <img src=http://placeimg.com/640/480/animals> \
+    //                         </section>");
+    //     addAnimalsToDocument(numberOfAnimals);
+}                        
 
 checkUserPassword();
 responseInput();
-// addAnimalsToDocument();
+addAnimalsToDocument(numberOfAnimals);
+
+var numberOfAnimals = prompt("How many animal pictures can you handle?");
+for(var i = 0; i < numberOfAnimals; i++) {
+        console.log(i);
+        document.write("<section> \
+                            <img src=http://placeimg.com/640/480/animals> \
+                            </section>");
+}                            
+    
+
